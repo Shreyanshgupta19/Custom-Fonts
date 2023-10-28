@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <EditText
+        android:id="@+id/t000"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter your name"
+        android:fontFamily="@font/tt"
+        android:background="#D6E25B"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/t00"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter your name"
+        android:background="@drawable/textfieldbackg"
+        android:textSize="25dp"
+         />
+
+    <EditText
+        android:id="@+id/t0"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/nextbtnbackg"
+        android:hint="Enter your name"
+        android:textSize="25dp"
+       />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:background="@drawable/buttonbackg"
+        android:textSize="36dp"
+      />
+
+    <TextView
+        android:id="@+id/t11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Hello World!"
+        android:textSize="36dp"
+      />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:fontFamily="@font/kk"
+        android:textColor="@color/Ecolor"
+        android:layout_marginTop="20dp"
+        android:textSize="36dp"
+     />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/b1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="AppCompatButton"
+        android:textSize="20dp"
+        android:background="#0DCBED"
+        android:fontFamily="@font/tt"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/b2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="AppCompatButton"
+        android:textSize="20dp"
+        android:background="#0DCBED"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/b3"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="AppCompatButton"
+        android:textSize="20dp"
+        android:background="@drawable/buttonbackg"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/b4"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="AppCompatButton"
+        android:textSize="20dp"
+        android:background="@drawable/nextbtnbackg"
+        android:fontFamily="@font/tt"
+        />
+</LinearLayout>
